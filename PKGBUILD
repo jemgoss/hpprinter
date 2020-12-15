@@ -5,9 +5,9 @@ pkgrel=1
 # epoch=1
 pkgdesc='A few bits from hplip to support a single printer without all the bloat and dependencies'
 arch=(x86_64)
-url=https://github.com/Jemgoss/hpprinter
+url=https://github.com/jemgoss/hpprinter
 license=(GPL3)
-depends=(cups ghostscript)
+depends=(cups ghostscript net-snmp)
 makedepends=()
 
 source=("https://mirror.chaoticum.net/arch/extra/os/${arch}/${_pkgname}-1:${pkgver}-2-x86_64.pkg.tar.zst")
